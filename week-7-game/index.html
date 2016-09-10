@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Info</title>
+	  <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+	   <script src="assets/javascript/train.js"></script>
+	   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+	   <script src="https://www.gstatic.com/firebasejs/3.3.1/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+   <header><h1>Anytime is Train Time</h1><br>
+           <h4>Choo Choo. Chee Chee.</h4>
+   </header>
+
+   <div id="tableHolder">
+	    <caption><h2>Current train schedule</h2></caption>
+	   	 <table id="trainTable">
+	   	   <tr id="firstrow">
+	   	   	 <td>Train Name:</td>
+	   	   	 <td>Destination:</td>
+	   	   	 <td>Frequency:</td>
+	   	   	 <td>Next Arrival:</td>
+	   	   	 <td>Mimutes Away:</td>
+	   	   </tr>
+	   	 </table>
+   </div>
+   <h2 id="addTrain">Add Train</h2>
+   <div id="formHolder">
+    <form>
+   	 <label for="trainName">Train Name:<br>
+       <input type="text" name="trainName" id="trainName"><br>
+     </label>
+
+     <label for="destination">Destination:<br>
+       <input type="text" name="destination" id="destination"><br>
+     </label>
+
+     <label for="trainTime">First Train Time:<br>
+       <input type="time" name="trainTime" id="trainTime"><br>
+     </label>
+
+     <label for="frequency">Frequency(minutes)<br>
+       <input type="text" name="frequency" id="frequency"><br>
+     </label>
+     <label>
+     	<input type="submit" name="submit" id="submitButton">
+     </label>
+    </form>
+   </div>
+   <!-- <script src="assets/javascript/api.js"></script> -->
+</body>
+</html>

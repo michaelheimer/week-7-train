@@ -1,0 +1,138 @@
+header
+{
+	background-color: #b32d00;
+	text-align: center;
+	width: 89%;
+	height: 35%;
+	text-transform: uppercase;
+	padding-top: 2%;
+	margin-left: 2%;
+
+}
+body
+{
+	width: 100%;
+	height: 100%;
+	background-color: #80aaff;
+}
+h1
+{
+	font-size: 60px;
+	color: white;
+	margin-bottom: 0px;
+}
+h2
+{
+	text-align: center;
+	font-size: 24px;
+	padding-right: 12%;
+}
+h4
+{
+	color: white;
+}
+
+#addTrain
+{
+	margin-top: 6%;
+}
+#formHolder
+{
+	float: left;
+	width: 85%;
+	/*margin-top: 6%;*/
+	margin-left: 2%;
+
+}
+#tableHolder
+{
+   width: 100%;
+   margin-top: 4%;
+   margin-left: 2%;
+}
+form 
+{
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 20px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  width 90%;
+}
+tbody
+{
+	
+	border: 1px solid #c6c7cc;
+
+}
+table 
+{
+  
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  background-color: white;
+  width: 89%;
+  border-collapse: collapse;
+  /*margin-left: 5%;*/
+  font-size: 20px;
+}
+label
+{
+	display: block;
+	margin-top: 2%;
+
+}
+
+tr:hover:not(#firstrow), tr:hover td:empty 
+{
+	background: #ffff66; 
+	pointer-events: visible;
+}
+tr:hover:not(#firstrow)
+ {
+    transform: scale(1.2); 
+ 	font-weight: 200;
+ 	text-align: center;
+ 	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+ }
+ input[type=text]
+ {
+ 	font-style: 20px;
+ 	padding: 1px 30px;
+ 	width: 90%;
+ 	height: 25px;
+ }
+ #submitButton
+ {
+ 	background: linear-gradient(#49708f, #293f50);
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	float: left;
+	padding: 8px 16px;
+	margin-top: 2%;
+ }
+
+ 
+
+
+tr 
+{
+	background: hsl(50, 50%, 80%);
+}
+
+tr, td 
+{ 
+	/*transition: .4s ease-in;*/
+	/*padding: 1.5rem; font-size: 1.3rem;*/
+} 
+
+/*tr:first-child {background: hsla(12, 100%, 40%, 0.5); }*/
+
+tr:nth-child(even) 
+{ 
+	background: hsla(50, 50%, 80%, 0.7); 
+}
+
